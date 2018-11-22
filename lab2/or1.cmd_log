@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/or1.xst" -ofn "C:/Users/brand/Documents/folder/lab2/or1.syr" 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/or1.xst" -ofn "C:/Users/brand/Documents/folder/lab2/or1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 or1.ngc or1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o or1_map.ncd or1.ngd or1.pcf 
+par -w -intstyle ise -ol high -mt off or1_map.ncd or1.ncd or1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml or1.twx or1.ncd -o or1.twr or1.pcf 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/or1.xst" -ofn "C:/Users/brand/Documents/folder/lab2/or1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 or1.ngc or1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o or1_map.ncd or1.ngd or1.pcf 
+par -w -intstyle ise -ol high -mt off or1_map.ncd or1.ncd or1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml or1.twx or1.ncd -o or1.twr or1.pcf 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/or1.xst" -ofn "C:/Users/brand/Documents/folder/lab2/or1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 or1.ngc or1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o or1_map.ncd or1.ngd or1.pcf 
+par -w -intstyle ise -ol high -mt off or1_map.ncd or1.ncd or1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml or1.twx or1.ncd -o or1.twr or1.pcf 

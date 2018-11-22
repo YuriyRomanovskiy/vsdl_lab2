@@ -1,0 +1,4 @@
+vhdl work "or1.vhd"
+vhdl work "not1.vhd"
+vhdl work "and1.vhd"
+vhdl work "point2.vhd"

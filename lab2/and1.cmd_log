@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/and1.xst" -ofn "C:/Users/brand/Documents/folder/lab2/and1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 and1.ngc and1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o and1_map.ncd and1.ngd and1.pcf 
+par -w -intstyle ise -ol high -mt off and1_map.ncd and1.ncd and1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml and1.twx and1.ncd -o and1.twr and1.pcf 

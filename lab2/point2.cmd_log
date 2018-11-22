@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/point2.xst" -ofn "C:/Users/brand/Documents/folder/lab2/point2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 point2.ngc point2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o point2_map.ncd point2.ngd point2.pcf 
+par -w -intstyle ise -ol high -mt off point2_map.ncd point2.ncd point2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml point2.twx point2.ncd -o point2.twr point2.pcf 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/point2.xst" -ofn "C:/Users/brand/Documents/folder/lab2/point2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 point2.ngc point2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o point2_map.ncd point2.ngd point2.pcf 
+par -w -intstyle ise -ol high -mt off point2_map.ncd point2.ncd point2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml point2.twx point2.ncd -o point2.twr point2.pcf 
+xst -intstyle ise -ifn "C:/Users/brand/Documents/folder/lab2/point2.xst" -ofn "C:/Users/brand/Documents/folder/lab2/point2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 point2.ngc point2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o point2_map.ncd point2.ngd point2.pcf 
+par -w -intstyle ise -ol high -mt off point2_map.ncd point2.ncd point2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml point2.twx point2.ncd -o point2.twr point2.pcf 
